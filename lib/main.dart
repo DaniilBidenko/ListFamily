@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget{
         body: GridView.builder(
           
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
+            crossAxisCount: 2, //Количество столбцов
             childAspectRatio: 4,
           ),
           itemCount: FamilyData.familyData.length,
